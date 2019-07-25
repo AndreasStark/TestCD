@@ -14,9 +14,11 @@ type = 'lvBuildSpecAllTargets'
 project = '{cd}'
 build_spec = 'Engine Release'
 
-
 [package]
 type = 'nipkg'
-name = 'test-custom-device-{veristand_version}'
-dev_xml_path = 'Source\Custom Device TestCD.xml'
+payload_dir = 'Built'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices'
+
+[archive]
+build_output_dir = 'Built'
+archive_location = 'C:\Users\Public\Documents\Jenkinsbuilds\test_custom_device'
