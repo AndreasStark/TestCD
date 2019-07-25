@@ -21,4 +21,4 @@ install_destination = 'documents\National Instruments\NI VeriStand {veristand_ve
 
 [archive]
 build_output_dir = 'Built'
-archive_location = '%userprofile%\Desktop\test_custom_device'
+archive_location = 'C:\Users\Public\Documents\Jenkinsbuilds\test_custom_device'
